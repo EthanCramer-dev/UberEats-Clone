@@ -4,11 +4,13 @@ import { TouchableWithoutFeedback } from "react-native-web";
 import HomeScreen from "./src/screens/HomeScreen";
 import RestaurantDetialsScreen from "./src/screens/RestaurantDetailsScreen";
 import DishDetailsScreen from "./src/screens/DishDetailsScreen";
+import Basket from "./src/screens/Basket";
+import OrderScreen from "./src/screens/OrdersScreen";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <DishDetailsScreen />
+      <OrderScreen />
 
       <StatusBar style="light" />
     </View>

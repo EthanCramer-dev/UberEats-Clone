@@ -42,7 +42,7 @@ const DishDetailsScreen = () => {
 
       <View style={styles.button}>
         <Text style={styles.buttonText}>
-          Add {quantity} order (${getTotal()})
+          Add {quantity} Basket &#8226;${getTotal()}
         </Text>
       </View>
     </View>
