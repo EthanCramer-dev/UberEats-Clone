@@ -3,11 +3,12 @@ import { StyleSheet, View } from "react-native";
 import { TouchableWithoutFeedback } from "react-native-web";
 import HomeScreen from "./src/screens/HomeScreen";
 import RestaurantDetialsScreen from "./src/screens/RestaurantDetailsScreen";
+import DishDetailsScreen from "./src/screens/DishDetailsScreen";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <RestaurantDetialsScreen />
+      <DishDetailsScreen />
 
       <StatusBar style="light" />
     </View>
