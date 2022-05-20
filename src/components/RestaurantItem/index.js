@@ -34,8 +34,6 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
     alignItems: "center",
     justifyContent: "center",
-    padding: 10,
-    paddingVertical: 30, //temporary fix for notch items overlapping with restaurant items
   },
   restaurantContainer: {
     width: "100%",
